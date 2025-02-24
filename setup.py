@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 def read_file(file):
 	with open(file, "r") as fh:
 		return fh.read()
-
+		
 
 setup(
 	name="manganelo",
